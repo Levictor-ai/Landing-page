@@ -30,3 +30,5 @@ Brainwave*.md
 prd
 *.md
 !README.md
+
+.vercel
