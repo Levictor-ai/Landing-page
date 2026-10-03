@@ -1,0 +1,20 @@
+# Vercel ignore - keep these out of the deployment
+
+# Original Figma design reference (6.8 MB)
+Frame*.png
+Frame*.jpg
+
+# Pre-rebrand reference implementation (old brand, superseded by index.html)
+Brainwave*.html
+Brainwave*.md
+
+# Internal copy notes
+prd
+*.md
+!README.md
+
+# VCS / tooling
+.git
+.gitignore
+.vercel
+node_modules

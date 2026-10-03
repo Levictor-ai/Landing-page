@@ -1,0 +1,32 @@
+# Dependencies / build
+node_modules/
+.vercel
+dist/
+build/
+
+# Local env
+.env
+.env.local
+.env*.local
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# --- Not part of the deployed site ---
+# Original Figma design reference (6.8 MB) - source of truth for the design, not shipped
+Frame*.png
+Frame*.jpg
+
+# Pre-rebrand reference implementation (source copy, superseded by index.html)
+Brainwave*.html
+Brainwave*.md
+
+# Internal copy extraction / notes
+prd
+*.md
+!README.md
